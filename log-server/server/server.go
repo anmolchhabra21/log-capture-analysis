@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"sync"
 	"time"
 
@@ -72,7 +73,7 @@ func main() {
 	esConfig := elasticsearch.Config{
 		Addresses: []string{"http://localhost:9200"},
 		Username: "elastic",
-		Password: "MOshun*T542IRnVACe-q",
+		Password: os.Getenv("ELASTIC_PASSWORD"), // Set ELASTIC_PASSWORD environment variable from your local Elastic instance
 	}
 
 	esClient, err := elasticsearch.NewClient(esConfig)
