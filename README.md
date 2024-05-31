@@ -31,7 +31,9 @@
 
 This solution provides a Scalable and Efficient implementation for log ingestion and analysis, leveraging the Light-weight multithreading power of Golang and search-indexing capability of ElasticSearch for effective log ingestion, storage, and analysis. It is capable of accepting logs from two distinct sources: a Kafka queue(that moves down to taking logs from various different Services) or direct HTTP API requests. It also offers a web-based user interface for log analysis, supporting various filters and search queries including regex.
 ![image](https://github.com/anmolchhabra21/log-capture-analysis/assets/93809908/f8bddd6d-2b02-4fc8-b33b-71284ff6e59f)
-
+[Architecture Diagram](https://drive.google.com/file/d/1m3JIEiaFRBUstL2A39uBW-RgzWohz4cL/view)
+<br/>
+[Project Video](https://drive.google.com/file/d/1o_JEPFfy5lUp1PKRh01cEQYIejszbvI_/view?usp=sharing)
 
 ### Features
 
